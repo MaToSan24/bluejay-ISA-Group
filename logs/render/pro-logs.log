@@ -1,0 +1,89 @@
+2021-04-07T11:51:29.912Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-07T11:51:29.959Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-07T11:51:29.963Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-07T13:04:52.229Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T13:04:52.243Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T13:04:52.245Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T13:04:52.245Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T13:04:52.329Z - info: Displaying render
+2021-04-07T13:05:04.270Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T13:05:04.281Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T13:05:04.281Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T13:05:04.282Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T13:05:04.315Z - info: Displaying render
+2021-04-07T16:10:28.428Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-07T16:10:28.467Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-07T16:10:28.473Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-07T16:11:37.402Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T16:11:37.416Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T16:11:37.417Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T16:11:37.417Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T16:11:37.534Z - info: Displaying render
+2021-04-07T16:41:40.957Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.js
+2021-04-07T16:41:40.958Z - info: Getting external file: http://registry/api/v6/agreements/tpa-project01
+2021-04-07T16:41:40.958Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.html
+2021-04-07T16:41:41.055Z - info: Displaying render
+2021-04-07T17:00:22.013Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:00:22.013Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T17:00:22.013Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T17:00:22.050Z - info: Displaying render
+2021-04-07T17:00:42.648Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.js
+2021-04-07T17:00:42.649Z - info: Getting external file: http://registry/api/v6/agreements/tpa-project01
+2021-04-07T17:00:42.649Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.html
+2021-04-07T17:00:42.677Z - info: Displaying render
+2021-04-07T17:23:14.127Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:23:14.140Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:23:14.141Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T17:23:14.142Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T17:23:14.167Z - info: Displaying render
+2021-04-07T17:42:19.474Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:42:19.482Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:42:19.482Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T17:42:19.483Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T17:42:19.525Z - info: Displaying render
+2021-04-07T17:42:33.986Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.js
+2021-04-07T17:42:33.987Z - info: Getting external file: http://registry/api/v6/agreements/tpa-proyectoPSG2
+2021-04-07T17:42:33.987Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.html
+2021-04-07T17:42:34.019Z - info: Displaying render
+2021-04-07T17:51:32.061Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:51:32.072Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-07T17:51:32.072Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-07T17:51:32.074Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-07T17:51:32.097Z - info: Displaying render
+2021-04-07T17:51:47.639Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.js
+2021-04-07T17:51:47.640Z - info: Getting external file: http://registry/api/v6/agreements/tpa-project01
+2021-04-07T17:51:47.641Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.html
+2021-04-07T17:51:47.667Z - info: Displaying render
+2021-04-07T17:54:44.359Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.js
+2021-04-07T17:54:44.360Z - info: Getting external file: http://registry/api/v6/agreements/tpa-project01
+2021-04-07T17:54:44.360Z - info: Getting external file: http://assets/api/v1/public/renders/tpa/default.html
+2021-04-07T17:54:44.397Z - info: Displaying render
+2021-04-07T21:06:32.330Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-07T21:06:32.419Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-07T21:06:32.430Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-08T09:47:59.941Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-08T09:48:00.004Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-08T09:48:00.009Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-10T12:34:25.919Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-10T12:34:26.092Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-10T12:34:26.102Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-11T10:06:59.410Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-11T10:06:59.494Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-11T10:06:59.504Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-12T09:29:27.086Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-12T09:29:27.276Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-12T09:29:27.289Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-13T09:14:33.535Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-13T09:14:33.658Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-13T09:14:33.668Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-14T21:30:45.259Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-14T21:30:45.352Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-14T21:30:45.367Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-15T09:32:42.810Z - info: Adding 'WWW-Authenticate:' header to every path. Check config/env for getting user and pass
+2021-04-15T09:32:42.899Z - info: Serving '/opt/app/src/backend/../frontend' as static folder
+2021-04-15T09:32:42.906Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-15T11:29:02.398Z - info: Redirecting to /render?model=http://assets/api/v1/public/renders/index/model.json&view=http://assets/api/v1/public/renders/index/view.html&ctrl=http://assets/api/v1/public/renders/index/controller.js
+2021-04-15T11:29:02.434Z - info: Getting external file: http://assets/api/v1/public/renders/index/controller.js
+2021-04-15T11:29:02.436Z - info: Getting external file: http://assets/api/v1/public/renders/index/model.json
+2021-04-15T11:29:02.437Z - info: Getting external file: http://assets/api/v1/public/renders/index/view.html
+2021-04-15T11:29:02.674Z - info: Displaying render

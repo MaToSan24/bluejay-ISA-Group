@@ -1,0 +1,147 @@
+2021/04/07 11:51:29 [emerg] 1#1: host not found in upstream "dashboard" in /etc/nginx/conf.d/dashboard.conf:11
+2021/04/07 11:51:39 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 11:51:40 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 11:51:41 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem"
+2021/04/07 11:51:41 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 11:51:43 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem"
+2021/04/07 11:51:43 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 11:51:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem"
+2021/04/07 11:51:45 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assetsbluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboardbluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/directorbluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/joinbluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registrybluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporterbluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopesbluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/uibluejaylocal/fullchain.pem"
+2021/04/07 11:52:03 [alert] 58#58: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 11:52:03 [alert] 59#59: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 11:52:03 [alert] 60#60: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 11:52:03 [alert] 61#61: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 16:10:19 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 16:10:25 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 16:10:26 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 16:10:27 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 16:10:28 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 16:10:31 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/07 16:11:00 [alert] 58#58: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 16:11:00 [alert] 59#59: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 16:11:00 [alert] 61#61: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 16:11:00 [alert] 60#60: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/07 21:06:33 [alert] 50#50: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 21:06:33 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 21:06:33 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/07 21:06:33 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/08 09:47:57 [alert] 50#50: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/08 09:47:57 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/08 09:47:57 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/08 09:47:57 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/10 12:34:25 [alert] 50#50: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:34:25 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:34:25 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:34:25 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/10 12:35:02 [alert] 57#57: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:35:02 [alert] 59#59: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:35:02 [alert] 58#58: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/10 12:35:02 [alert] 60#60: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/11 10:06:58 [alert] 50#50: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/11 10:06:58 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/11 10:06:58 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/11 10:06:58 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/12 09:29:26 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/12 09:29:26 [alert] 54#54: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/12 09:29:26 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/12 09:29:26 [alert] 55#55: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/13 09:14:32 [alert] 50#50: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/13 09:14:32 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/13 09:14:32 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/13 09:14:32 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/14 21:30:45 [alert] 49#49: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/14 21:30:45 [alert] 50#50: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/14 21:30:45 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/14 21:30:45 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/assets.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/dashboard.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/director.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/join.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/registry.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/reporter.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/scopes.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/letsencrypt/live/ui.bluejay.local/fullchain.pem"
+2021/04/15 09:32:42 [alert] 51#51: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/15 09:32:42 [alert] 52#52: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/15 09:32:42 [alert] 53#53: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)
+2021/04/15 09:32:42 [alert] 54#54: setrlimit(RLIMIT_NOFILE, 100000) failed (1: Operation not permitted)

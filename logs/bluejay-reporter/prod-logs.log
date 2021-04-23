@@ -1,0 +1,909 @@
+2021-04-07T11:51:31.892Z - info: Using '50mb' as HTTP body size
+2021-04-07T11:51:31.895Z - info: Deploy request received
+2021-04-07T11:51:31.896Z - info: Trying to deploy server
+2021-04-07T11:51:31.990Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-07T11:51:31.990Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-07T11:51:31.990Z - info: Deploy successfully done
+2021-04-07T11:51:32.273Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-07T11:51:32.317Z - ctl: Creating influxdb connection to influxdb
+2021-04-07T11:51:32.348Z - ctl: Creating influxdb connection to influxdb
+2021-04-07T11:51:32.350Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-07T11:51:32.363Z - ctl: DBs in influxdb
+2021-04-07T11:51:32.364Z - ctl: DBs in influxdb
+2021-04-07T11:51:32.365Z - ctl: Retrieving existing databases in InfluxDB
+2021-04-07T11:51:32.365Z - ctl: Creating database 'metrics' in InfluxDB
+2021-04-07T11:51:32.367Z - ctl: Retrieving existing databases in InfluxDB
+2021-04-07T11:51:32.367Z - ctl: Creating database 'metrics' in InfluxDB
+2021-04-07T11:51:32.410Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-07T11:51:32.410Z - ctl: InfluxDb: DB created
+2021-04-07T11:51:32.411Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-07T11:51:32.411Z - ctl: InfluxDb: DB created
+2021-04-07T16:10:18.916Z - info: Got SIGTERM (docker container stop). Graceful shutdown  2021-04-07T16:10:18.915Z
+2021-04-07T16:10:21.653Z - info: Using '50mb' as HTTP body size
+2021-04-07T16:10:21.657Z - info: Deploy request received
+2021-04-07T16:10:21.657Z - info: Trying to deploy server
+2021-04-07T16:10:21.758Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-07T16:10:21.758Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-07T16:10:21.759Z - info: Deploy successfully done
+2021-04-07T16:10:22.084Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-07T16:10:22.118Z - ctl: Creating influxdb connection to influxdb
+2021-04-07T16:10:22.147Z - ctl: Creating influxdb connection to influxdb
+2021-04-07T16:10:22.150Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-07T16:10:22.162Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-07T16:10:22.163Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-07T16:10:22.163Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-07T16:10:22.164Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-07T16:10:22.164Z - ctl: InfluxDb: DB created
+2021-04-07T16:10:22.165Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-07T16:10:22.165Z - ctl: InfluxDb: DB created
+2021-04-07T16:10:22.166Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-07T16:10:22.167Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-07T16:10:22.167Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-07T17:01:23.789Z - info: Bypassing 405 status put by swagger when no request handler is defined
+2021-04-07T17:01:23.816Z - info: Creating points from List for agreementID: tpa-project01
+2021-04-07T17:01:23.817Z - ctl: Getting the agreements from Registry with contractId = tpa-project01
+2021-04-07T17:01:23.831Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-22T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:01:34.640Z - ctl: Connection with Registry established
+2021-04-07T17:01:34.640Z - ctl: Receiving guarantees information...
+2021-04-07T17:01:41.155Z - info: Finished creating event collector metrics for agreeement tpa-project01
+2021-04-07T17:43:54.425Z - info: Bypassing 405 status put by swagger when no request handler is defined
+2021-04-07T17:43:54.439Z - info: Creating points from List for agreementID: tpa-proyectoPSG2
+2021-04-07T17:43:54.439Z - ctl: Getting the agreements from Registry with contractId = tpa-proyectoPSG2
+2021-04-07T17:43:54.452Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:43:54.530Z - ctl: Connection with Registry established
+2021-04-07T17:43:54.530Z - ctl: Receiving guarantees information...
+2021-04-07T17:43:54.531Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:43:54.532Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:43:54.533Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 20000 ]
+2021-04-07T17:43:54.533Z - info: Finished creating event collector metrics for agreeement tpa-proyectoPSG2
+2021-04-07T17:44:14.546Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:44:14.645Z - ctl: Connection with Registry established
+2021-04-07T17:44:14.645Z - ctl: Receiving guarantees information...
+2021-04-07T17:44:14.649Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:44:14.649Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:44:34.665Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 40000 ]
+2021-04-07T17:45:14.682Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:45:14.753Z - ctl: Connection with Registry established
+2021-04-07T17:45:14.754Z - ctl: Receiving guarantees information...
+2021-04-07T17:45:14.755Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:45:14.755Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:45:34.757Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 60000 ]
+2021-04-07T17:46:34.817Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:46:34.880Z - ctl: Connection with Registry established
+2021-04-07T17:46:34.880Z - ctl: Receiving guarantees information...
+2021-04-07T17:46:34.881Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:46:34.881Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:46:54.902Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 80000 ]
+2021-04-07T17:48:14.956Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:48:15.046Z - ctl: Connection with Registry established
+2021-04-07T17:48:15.046Z - ctl: Receiving guarantees information...
+2021-04-07T17:48:15.047Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:48:15.048Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:48:35.068Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 100000 ]
+2021-04-07T17:50:15.070Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:50:15.128Z - ctl: Connection with Registry established
+2021-04-07T17:50:15.128Z - ctl: Receiving guarantees information...
+2021-04-07T17:50:15.129Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:50:15.129Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:50:35.146Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 120000 ]
+2021-04-07T17:52:35.175Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:52:35.232Z - ctl: Connection with Registry established
+2021-04-07T17:52:35.232Z - ctl: Receiving guarantees information...
+2021-04-07T17:52:35.239Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:52:35.239Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:52:55.260Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 140000 ]
+2021-04-07T17:55:00.341Z - info: Bypassing 405 status put by swagger when no request handler is defined
+2021-04-07T17:55:00.353Z - info: Creating points from List for agreementID: tpa-project01
+2021-04-07T17:55:00.354Z - ctl: Getting the agreements from Registry with contractId = tpa-project01
+2021-04-07T17:55:15.276Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:55:15.335Z - ctl: Connection with Registry established
+2021-04-07T17:55:15.336Z - ctl: Receiving guarantees information...
+2021-04-07T17:55:15.337Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:55:15.337Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:55:35.358Z - info: Queue lenght: [ 1 ] - Time Between requests: [ 160000 ]
+2021-04-07T17:57:20.406Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:57:20.459Z - ctl: Connection with Registry established
+2021-04-07T17:57:20.460Z - ctl: Receiving guarantees information...
+2021-04-07T17:57:20.461Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:57:20.461Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:57:20.462Z - info: Finished creating event collector metrics for agreeement tpa-project01
+2021-04-07T17:58:15.379Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T17:58:15.430Z - ctl: Connection with Registry established
+2021-04-07T17:58:15.431Z - ctl: Receiving guarantees information...
+2021-04-07T17:58:15.432Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T17:58:15.432Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T17:58:35.436Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:01:15.537Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:01:15.581Z - ctl: Connection with Registry established
+2021-04-07T18:01:15.582Z - ctl: Receiving guarantees information...
+2021-04-07T18:01:15.582Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:01:15.582Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:01:35.603Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:04:15.635Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:04:15.705Z - ctl: Connection with Registry established
+2021-04-07T18:04:15.705Z - ctl: Receiving guarantees information...
+2021-04-07T18:04:15.706Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:04:15.706Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:04:35.710Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:07:15.722Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:07:15.763Z - ctl: Connection with Registry established
+2021-04-07T18:07:15.764Z - ctl: Receiving guarantees information...
+2021-04-07T18:07:15.764Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:07:15.764Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:07:35.785Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:10:15.804Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:10:15.875Z - ctl: Connection with Registry established
+2021-04-07T18:10:15.875Z - ctl: Receiving guarantees information...
+2021-04-07T18:10:15.876Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:10:15.876Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:10:35.897Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:13:15.926Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:13:15.976Z - ctl: Connection with Registry established
+2021-04-07T18:13:15.977Z - ctl: Receiving guarantees information...
+2021-04-07T18:13:15.977Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:13:15.977Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:13:35.983Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:16:16.057Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:16:16.099Z - ctl: Connection with Registry established
+2021-04-07T18:16:16.100Z - ctl: Receiving guarantees information...
+2021-04-07T18:16:16.100Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:16:16.100Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:16:36.113Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:19:16.208Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:19:16.248Z - ctl: Connection with Registry established
+2021-04-07T18:19:16.248Z - ctl: Receiving guarantees information...
+2021-04-07T18:19:16.249Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:19:16.249Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:19:36.266Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:22:16.298Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:22:16.342Z - ctl: Connection with Registry established
+2021-04-07T18:22:16.342Z - ctl: Receiving guarantees information...
+2021-04-07T18:22:16.343Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:22:16.343Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:22:36.365Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:25:16.465Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:25:16.507Z - ctl: Connection with Registry established
+2021-04-07T18:25:16.507Z - ctl: Receiving guarantees information...
+2021-04-07T18:25:16.508Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:25:16.508Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:25:36.528Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:28:16.546Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:28:16.594Z - ctl: Connection with Registry established
+2021-04-07T18:28:16.594Z - ctl: Receiving guarantees information...
+2021-04-07T18:28:16.594Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:28:16.595Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:28:36.615Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:31:16.716Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:31:16.756Z - ctl: Connection with Registry established
+2021-04-07T18:31:16.756Z - ctl: Receiving guarantees information...
+2021-04-07T18:31:16.756Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:31:16.757Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:31:36.775Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:34:16.846Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:34:16.890Z - ctl: Connection with Registry established
+2021-04-07T18:34:16.890Z - ctl: Receiving guarantees information...
+2021-04-07T18:34:16.891Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:34:16.891Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:34:36.912Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:37:16.944Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:37:16.984Z - ctl: Connection with Registry established
+2021-04-07T18:37:16.984Z - ctl: Receiving guarantees information...
+2021-04-07T18:37:16.985Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:37:16.985Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:37:36.987Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:40:17.006Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:40:17.054Z - ctl: Connection with Registry established
+2021-04-07T18:40:17.054Z - ctl: Receiving guarantees information...
+2021-04-07T18:40:17.055Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:40:17.055Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:40:37.076Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:43:17.110Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:43:17.148Z - ctl: Connection with Registry established
+2021-04-07T18:43:17.148Z - ctl: Receiving guarantees information...
+2021-04-07T18:43:17.150Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:43:17.150Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:43:37.169Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:46:17.206Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:46:17.248Z - ctl: Connection with Registry established
+2021-04-07T18:46:17.249Z - ctl: Receiving guarantees information...
+2021-04-07T18:46:17.249Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:46:17.249Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:46:37.271Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:49:17.300Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:49:17.340Z - ctl: Connection with Registry established
+2021-04-07T18:49:17.340Z - ctl: Receiving guarantees information...
+2021-04-07T18:49:17.340Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:49:17.341Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:49:37.356Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:52:17.446Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:52:17.492Z - ctl: Connection with Registry established
+2021-04-07T18:52:17.492Z - ctl: Receiving guarantees information...
+2021-04-07T18:52:17.493Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:52:17.493Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:52:37.513Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:55:17.606Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:55:17.654Z - ctl: Connection with Registry established
+2021-04-07T18:55:17.654Z - ctl: Receiving guarantees information...
+2021-04-07T18:55:17.655Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:55:17.655Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:55:37.666Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T18:58:17.766Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-proyectoPSG2/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-04-07T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T18:58:17.809Z - ctl: Connection with Registry established
+2021-04-07T18:58:17.809Z - ctl: Receiving guarantees information...
+2021-04-07T18:58:17.810Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T18:58:17.810Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T18:58:37.832Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T19:01:17.891Z - ctl: URLRegistry: http://registry/api/v6/states/tpa-project01/guarantees?from=2021-01-17T22:00:00.000Z&to=2021-03-01T21:59:58.999Z&newPeriodsFromGuarantees=false
+2021-04-07T19:01:17.929Z - ctl: Connection with Registry established
+2021-04-07T19:01:17.930Z - ctl: Receiving guarantees information...
+2021-04-07T19:01:17.930Z - error: Error while processing guarantee data received. Adding to queue
+2021-04-07T19:01:17.930Z - error:  message=Cannot read property 'from' of undefined, stack=TypeError: Cannot read property 'from' of undefined
+    at Stream.<anonymous> (/opt/app/src/backend/controllers/v4/ReporterController.js:301:63)
+    at Stream.emit (events.js:315:20)
+    at drain (/opt/app/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/opt/app/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/opt/app/node_modules/JSONStream/index.js:132:18)
+    at Parser.proto.write (/opt/app/node_modules/jsonparse/jsonparse.js:135:34)
+    at Stream.<anonymous> (/opt/app/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/opt/app/node_modules/through/index.js:26:11)
+    at Request.ondata (internal/streams/legacy.js:19:31)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (/opt/app/node_modules/request/request.js:1073:12)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.Readable.read (_stream_readable.js:512:10)
+    at flow (_stream_readable.js:985:34)
+    at resume_ (_stream_readable.js:966:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2021-04-07T19:01:37.951Z - info: Queue lenght: [ 2 ] - Time Between requests: [ 160000 ]
+2021-04-07T21:06:35.006Z - info: Using '50mb' as HTTP body size
+2021-04-07T21:06:35.015Z - info: Deploy request received
+2021-04-07T21:06:35.015Z - info: Trying to deploy server
+2021-04-07T21:06:35.187Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-07T21:06:35.187Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-07T21:06:35.188Z - info: Deploy successfully done
+2021-04-07T21:06:35.648Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-07T21:06:35.690Z - ctl: Creating influxdb connection to influxdb
+2021-04-07T21:06:35.721Z - ctl: Creating influxdb connection to influxdb
+2021-04-07T21:06:35.726Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-07T21:06:35.743Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-07T21:06:35.743Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-07T21:06:35.744Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-07T21:06:35.744Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-07T21:06:35.745Z - ctl: InfluxDb: DB created
+2021-04-07T21:06:35.745Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-07T21:06:35.746Z - ctl: InfluxDb: DB created
+2021-04-07T21:06:35.746Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-07T21:06:35.747Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-07T21:06:35.747Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-08T09:48:00.355Z - info: Using '50mb' as HTTP body size
+2021-04-08T09:48:00.358Z - info: Deploy request received
+2021-04-08T09:48:00.359Z - info: Trying to deploy server
+2021-04-08T09:48:00.452Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-08T09:48:00.452Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-08T09:48:00.452Z - info: Deploy successfully done
+2021-04-08T09:48:00.742Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-08T09:48:00.791Z - ctl: Creating influxdb connection to influxdb
+2021-04-08T09:48:00.814Z - ctl: Creating influxdb connection to influxdb
+2021-04-08T09:48:00.816Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-08T09:48:00.828Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-08T09:48:00.828Z - ctl: InfluxDb: DB created
+2021-04-08T09:48:00.829Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-08T09:48:00.830Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-08T09:48:00.830Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-08T09:48:00.830Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-08T09:48:00.831Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-08T09:48:00.831Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-08T09:48:00.831Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-08T09:48:00.831Z - ctl: InfluxDb: DB created
+2021-04-08T16:45:21.187Z - info: Got SIGTERM (docker container stop). Graceful shutdown  2021-04-08T16:45:21.179Z
+2021-04-10T12:34:28.601Z - info: Using '50mb' as HTTP body size
+2021-04-10T12:34:28.611Z - info: Deploy request received
+2021-04-10T12:34:28.611Z - info: Trying to deploy server
+2021-04-10T12:34:28.795Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-10T12:34:28.795Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-10T12:34:28.796Z - info: Deploy successfully done
+2021-04-10T12:34:29.536Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-10T12:34:29.627Z - ctl: Creating influxdb connection to influxdb
+2021-04-10T12:34:29.714Z - ctl: Creating influxdb connection to influxdb
+2021-04-10T12:34:29.719Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-10T12:34:29.744Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-10T12:34:29.744Z - ctl: InfluxDb: DB created
+2021-04-10T12:34:29.746Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-10T12:34:29.747Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-10T12:34:29.747Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-10T12:34:29.748Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-10T12:34:29.749Z - ctl: InfluxDb: DB created
+2021-04-10T12:34:29.751Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-10T12:34:29.752Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-10T12:34:29.752Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-11T10:06:59.572Z - info: Using '50mb' as HTTP body size
+2021-04-11T10:06:59.581Z - info: Deploy request received
+2021-04-11T10:06:59.582Z - info: Trying to deploy server
+2021-04-11T10:06:59.731Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-11T10:06:59.731Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-11T10:06:59.731Z - info: Deploy successfully done
+2021-04-11T10:07:00.272Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-11T10:07:00.345Z - ctl: Creating influxdb connection to influxdb
+2021-04-11T10:07:00.407Z - ctl: Creating influxdb connection to influxdb
+2021-04-11T10:07:00.414Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-11T10:07:00.438Z - error: Error creating database 'metrics' in InfluxDB: Error: connect ECONNREFUSED 172.18.0.10:8086
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '172.18.0.10',
+  port: 8086
+}
+2021-04-11T10:07:00.440Z - ctl: Error creating Influx database!
+2021-04-11T10:07:00.442Z - error:  message=connect ECONNREFUSED 172.18.0.10:8086, stack=Error: connect ECONNREFUSED 172.18.0.10:8086
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16), errno=-111, code=ECONNREFUSED, syscall=connect, address=172.18.0.10, port=8086
+2021-04-11T10:07:00.443Z - ctl: Error creating Influx database!
+2021-04-11T10:07:00.446Z - error: Error creating database 'metrics' in InfluxDB: Error: connect ECONNREFUSED 172.18.0.10:8086
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '172.18.0.10',
+  port: 8086
+}
+2021-04-12T09:29:28.581Z - info: Using '50mb' as HTTP body size
+2021-04-12T09:29:28.590Z - info: Deploy request received
+2021-04-12T09:29:28.590Z - info: Trying to deploy server
+2021-04-12T09:29:28.734Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-12T09:29:28.734Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-12T09:29:28.735Z - info: Deploy successfully done
+2021-04-12T09:29:29.145Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-12T09:29:29.209Z - ctl: Creating influxdb connection to influxdb
+2021-04-12T09:29:29.252Z - ctl: Creating influxdb connection to influxdb
+2021-04-12T09:29:29.255Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-12T09:29:29.275Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-12T09:29:29.275Z - ctl: InfluxDb: DB created
+2021-04-12T09:29:29.276Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-12T09:29:29.276Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-12T09:29:29.277Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-12T09:29:29.277Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-12T09:29:29.278Z - ctl: InfluxDb: DB created
+2021-04-12T09:29:29.278Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-12T09:29:29.278Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-12T09:29:29.278Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-13T09:14:34.622Z - info: Using '50mb' as HTTP body size
+2021-04-13T09:14:34.626Z - info: Deploy request received
+2021-04-13T09:14:34.626Z - info: Trying to deploy server
+2021-04-13T09:14:34.705Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-13T09:14:34.705Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-13T09:14:34.705Z - info: Deploy successfully done
+2021-04-13T09:14:34.998Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-13T09:14:35.037Z - ctl: Creating influxdb connection to influxdb
+2021-04-13T09:14:35.066Z - ctl: Creating influxdb connection to influxdb
+2021-04-13T09:14:35.068Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-13T09:14:35.086Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-13T09:14:35.087Z - ctl: InfluxDb: DB created
+2021-04-13T09:14:35.088Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-13T09:14:35.088Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-13T09:14:35.088Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-13T09:14:35.090Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-13T09:14:35.090Z - ctl: InfluxDb: DB created
+2021-04-13T09:14:35.091Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-13T09:14:35.091Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-13T09:14:35.091Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-14T21:30:45.436Z - info: Using '50mb' as HTTP body size
+2021-04-14T21:30:45.443Z - info: Deploy request received
+2021-04-14T21:30:45.444Z - info: Trying to deploy server
+2021-04-14T21:30:45.653Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-14T21:30:45.654Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-14T21:30:45.654Z - info: Deploy successfully done
+2021-04-14T21:30:46.212Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-14T21:30:46.265Z - ctl: Creating influxdb connection to influxdb
+2021-04-14T21:30:46.298Z - ctl: Creating influxdb connection to influxdb
+2021-04-14T21:30:46.301Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-14T21:30:46.316Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-14T21:30:46.317Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-14T21:30:46.317Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-14T21:30:46.318Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-14T21:30:46.318Z - ctl: InfluxDb: DB created
+2021-04-14T21:30:46.319Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-14T21:30:46.319Z - ctl: InfluxDb: DB created
+2021-04-14T21:30:46.320Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-14T21:30:46.320Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-14T21:30:46.320Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-15T09:32:44.346Z - info: Using '50mb' as HTTP body size
+2021-04-15T09:32:44.349Z - info: Deploy request received
+2021-04-15T09:32:44.349Z - info: Trying to deploy server
+2021-04-15T09:32:44.428Z - info: Your server is listening on port 80 (http://localhost:80)
+2021-04-15T09:32:44.428Z - info: Swagger-ui is available on http://localhost:80/api/v4/docs
+2021-04-15T09:32:44.428Z - info: Deploy successfully done
+2021-04-15T09:32:44.702Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-15T09:32:44.746Z - ctl: Creating influxdb connection to influxdb
+2021-04-15T09:32:44.774Z - ctl: Creating influxdb connection to influxdb
+2021-04-15T09:32:44.777Z - ctl: Creating InfluxDB connection to 'influxdb' in database 'metrics' and params {"host":"influxdb","database":"metrics","measurement":"metrics_values","measurement_historical":"metrics_values_historical","fields":{"value":"Influx.FieldType.INTEGER"},"tags":["id","priority","agreement"]}
+2021-04-15T09:32:44.787Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-15T09:32:44.787Z - ctl: InfluxDb: DB created
+2021-04-15T09:32:44.788Z - ctl: DBs in influxdb 0=metrics, 1=_internal
+2021-04-15T09:32:44.789Z - ctl: InfluxDb: DB created
+2021-04-15T09:32:44.790Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-15T09:32:44.790Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-15T09:32:44.790Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-15T09:32:44.791Z - ctl: Retrieving existing databases in InfluxDB 0=metrics, 1=_internal
+2021-04-15T09:32:44.791Z - ctl: Database 'metrics' already exists in InfluxDB
+2021-04-15T09:32:44.791Z - ctl: Database 'metrics' is ready to be used in InfluxDB
+2021-04-15T12:24:55.914Z - info: Got SIGTERM (docker container stop). Graceful shutdown  2021-04-15T12:24:55.908Z
